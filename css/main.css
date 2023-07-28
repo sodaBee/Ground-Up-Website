@@ -2,14 +2,77 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
 }
-header img {
-    padding: 10px;
-    width: 100%;
-    border-radius: 11px;
+header {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background-image: url("../images/header-photo-1.jpg");
+    height: 100vh;
+    background-size: 100% auto;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+header p {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+header ul {
+    right: 10px;
 }
 header li {
     display: inline;
 }
-section .cols {
-    display: inline;
+header li a{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.welcome {
+    display: inline-block;
+    text-align: center;
+}
+.photos {
+    border-radius: 20px;
+}
+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+section img {
+    width: 100%;
+}
+section .col h3 {
+    font-family: 'Nunito', sans-serif;
+}
+.bottomMenus {
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+}
+#drinks {
+    background-image: url("../images/drink-menu-photo.jpg");
+    border-radius: 20px;
+}
+#food {
+    background-image: url("../images/food-menu-photo.jpg");
+    border-radius: 20px;
+}
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        background-color: #35667C;
+    }
+    header {
+        background-image: url("../images/header-photo.jpg");
+        border-radius: 20px;
+    }
+    section .col {
+        display: flex;
+        justify-content: center;
+    }
 }
