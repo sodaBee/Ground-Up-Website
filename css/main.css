@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+header img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 11px;
+}
+header li {
+    display: inline;
+}
+section .cols {
+    display: inline;
+}
